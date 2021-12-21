@@ -3,6 +3,7 @@ class TasksController < ApplicationController
 
   # GET /tasks or /tasks.json
   def index
+    # アクションの中でモデル利用
     @tasks = Task.all
   end
 
